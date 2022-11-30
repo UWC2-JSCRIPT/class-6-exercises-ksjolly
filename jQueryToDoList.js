@@ -34,7 +34,7 @@ const deleteEl = (e) => {
   e.preventDefault();
   console.log('entered delete function');
   console.log('the parent is ', $(this));
-  $(e.target).parent().remove();
+  $(e.target).parent().fadeOut();
 }
 
 
